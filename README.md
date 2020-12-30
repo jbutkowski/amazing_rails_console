@@ -1,10 +1,10 @@
-# Make Your Rails Console Awesome
+# Make Your Rails Console Amazing
 
 This gem was inspired by [Using pry in production](https://bugsnag.com/blog/production-pry), [jazz_hands](https://github.com/nixme/jazz_hands) and [jazz_fingers](https://github.com/plribeiro3000/jazz_fingers).
 
-The pros of `awesome_rails_console` are:
+The pros of `amazing_rails_console` are:
 
-* Less gem dependances (Only pry-rails and awesome_print other than rails. The rest are optional)
+* Less gem dependances (Only pry-rails and amazing_print other than rails. The rest are optional)
 * Simpler prompt modification (Similar to the default prompt you're already familiar with)
 * No need to worry about configuration (because there are not much options anyway)
 
@@ -13,14 +13,14 @@ The pros of `awesome_rails_console` are:
 Gemfile:
 
 ``` ruby
-gem 'awesome_rails_console'
+gem 'amazing_rails_console'
 ```
 
 In terminal:
 
 ``` sh
 bundle
-rails g awesome_rails_console:install # This will include dependency gems to the gemfile
+rails g amazing_rails_console:install # This will include dependency gems to the gemfile
 # you should review your Gemfile at this point (and adjust if needed)
 ```
 
@@ -38,7 +38,7 @@ Prevents you from accidentally changing production data to the wrong project.
 
 ![](http://i.imgur.com/CKrJYqk.png)
 
-### Beautiful formatting with pry and awesome_print
+### Beautiful formatting with pry and amazing_print
 
 Make it easy to read. Reduce the pain while debugging.
 

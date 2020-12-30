@@ -1,6 +1,6 @@
 require 'rails/generators/base'
 
-class AwesomeRailsConsole::InstallGenerator < Rails::Generators::Base
+class AmazingRailsConsole::InstallGenerator < Rails::Generators::Base
   source_root File.expand_path('../templates', __FILE__)
 
   def update_gemfile

@@ -1,6 +1,6 @@
 require "pry-rails"
 
-module AwesomeRailsConsole
+module AmazingRailsConsole
   module Prompts
     def self.choose_prompt_for_pry_version
       old_prompt = Pry.config.prompt
@@ -24,8 +24,8 @@ module AwesomeRailsConsole
     # https://github.com/pry/pry/wiki/Customization-and-configuration#Config_prompt
     def self.post_pry_13_prompt(old_prompt)
       Pry::Prompt.new(
-        :awesome_rails_console, # name
-        "awesome_rails_console default prompt", # description
+        :amazing_rails_console, # name
+        "amazing_rails_console default prompt", # description
         [
           proc { |*a| # "main" prompt
             "#{Rails.env.classify} #{old_prompt.wait_proc.call(*a)}"

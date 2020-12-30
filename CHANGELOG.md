@@ -15,12 +15,12 @@
 
 ## v0.4.1 [DO NOT USE]
 
-* Replace `hirb-unicode` with `hirb-unicode-steakknife` in optional enhancement. (Run `rails generate awesome_rails_console:install` to install them)
+* Replace `hirb-unicode` with `hirb-unicode-steakknife` in optional enhancement. (Run `rails generate amazing_rails_console:install` to install them)
 * BUG: It doesn't require properly
 
 ## v0.4.0
 
-* Add `pry-byebug`, `pry-stack_explorer` and `hirb` back as optional enhancement. (Run `rails generate awesome_rails_console:install` to install them)
+* Add `pry-byebug`, `pry-stack_explorer` and `hirb` back as optional enhancement. (Run `rails generate amazing_rails_console:install` to install them)
 
 ## v0.3.0
 

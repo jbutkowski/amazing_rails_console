@@ -1,11 +1,11 @@
 require "pry-rails"
-require "awesome_print"
+require "amazing_print"
 
-module AwesomeRailsConsole
+module AmazingRailsConsole
   class Railtie < Rails::Railtie
-    initializer "awesome_rails_console.initialize" do |app|
+    initializer "amazing_rails_console.initialize" do |app|
       disables_pry_plugin_loading
-      use_awesome_print_for_formatting
+      use_amazing_print_for_formatting
       set_prompt_name_to_project_name
       show_rails_env_name_before_prompt
     end
@@ -16,8 +16,8 @@ module AwesomeRailsConsole
       Pry.config.should_load_plugins = false
     end
 
-    def use_awesome_print_for_formatting
-      AwesomePrint.pry!
+    def use_amazing_print_for_formatting
+      AmazingPrint.pry!
     end
 
     def set_prompt_name_to_project_name
